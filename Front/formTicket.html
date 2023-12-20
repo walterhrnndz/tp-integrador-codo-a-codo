@@ -1,0 +1,67 @@
+<div class="contenedorFormComprar">
+    <div class="contenedorCategorias">
+        <div class="cuadros estudiante">
+            <h3>Estudiante</h3>
+            <p>Tiene un descuento</p>
+            <p><b>80%</b></p>
+            <span>* presentar documentación</span>
+        </div>
+        <div class="cuadros trainee">
+            <h3>Trainee</h3>
+            <p>Tiene un descuento</p>
+            <p><b>50%</b></p>
+            <span>* presentar documentación</span>
+        </div>
+        <div class="cuadros junior">
+            <h3>Junior</h3>
+            <p>Tiene un descuento</p>
+            <p><b>15%</b></p>
+            <span>* presentar documentación</span>
+        </div>
+    </div>
+    <span>Venta</span>
+    <h2>VALOR DE TICKET $200</h2>
+
+    <div class="formulario">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Correo">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="cantidad">Cantidad</label>
+                    <input type="number" class="form-control" id="cantidad">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="categoria">Categoría</label>
+                    <select id="categoria" class="form-control">
+                        <label for="cantidad">Cantidad</label>
+                        <option>-- Seleccionar categoría --</option>
+                        <option>Sin categoría</option>
+                        <option>Estudiante</option>
+                        <option>Trainee</option>
+                        <option>Junior</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="total-amount" class="alert alert-primary info-alert" role="alert">
+        Total a Pagar: $
+    </div>
+
+    <div class="botones-tickets">
+        <button id="btnBorrar" type="button" class="btn btn-success col-md-6">Borrar</button>
+        <button id="btnResumen" type="button" class="btn btn-success col-md-6">Resumen</button>
+    </div>
+    <br>
+</div>
